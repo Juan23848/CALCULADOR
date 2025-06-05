@@ -25,7 +25,7 @@ GREMIOS = {
 
 @st.cache_data
 def cargar_puntajes():
-    return pd.read_excel("Simulador_Salarial_Cargos_Abril2025.xlsx", sheet_name="Simulador Abril 2025")
+    return pd.read_excel("Cargos_Abril2025.xlsx", sheet_name="Simulador Abril 2025")
 
 df_cargos = cargar_puntajes()
 
